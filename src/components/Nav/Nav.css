@@ -46,6 +46,8 @@ nav {
         border-bottom: 1px solid #d9bb94;
         grid-area: nav1;
         color: black;
+        position: fixed;
+        bottom: 0;
     }
 
     .item img {
