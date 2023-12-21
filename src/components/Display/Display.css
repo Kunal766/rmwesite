@@ -1,0 +1,27 @@
+#disp {
+    box-sizing: border-box;
+    height: 85vh;
+    width: 85vw;
+    background-color: #fff0dd;
+    grid-area: disp1;
+    overflow-y: auto;
+}
+
+.headtext {
+    color: #222222;
+}
+
+@media only screen and (max-width: 600px) {
+    #disp {
+        box-sizing: border-box;
+        height: 70vh;
+        width: 100vw;
+        background-color: #fff0dd;
+        grid-area: disp1;
+        overflow-y: auto;
+    }
+
+    .headtext {
+        color: black;
+    }
+}
