@@ -27,3 +27,12 @@ code {
   background: #222222;
   border-radius: 10px;
 }
+
+.slick-slider {
+  margin: 30px;
+}
+
+.silderItem {
+  display: flex !important;
+  justify-content: center !important;
+}
