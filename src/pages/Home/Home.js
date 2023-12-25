@@ -2,7 +2,7 @@ import './Home.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
-// import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 function Home() {
     const settings = {
@@ -28,7 +28,7 @@ function Home() {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots:false
+                    dots: false
                 }
             }
         ]
@@ -152,8 +152,153 @@ function Home() {
             "title": "What care can you get for a grand?"
         }
     ]
+
+
+    const BooksFackData = [{
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+        {
+            "book_id": 2,
+            "name": "Harry Potter",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+            "url": "https://www.goodreads.com/book/show/2",
+            "authors": [
+                "J.K. Rowling",
+                "Mary GrandPré"
+            ],
+            "rating": 4.5,
+            "pages": 912,
+            "published_date": "June 21, 2003",
+            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+        },
+        {
+            "book_id": 2,
+            "name": "Harry Potter",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+            "url": "https://www.goodreads.com/book/show/2",
+            "authors": [
+                "J.K. Rowling",
+                "Mary GrandPré"
+            ],
+            "rating": 4.5,
+            "pages": 912,
+            "published_date": "June 21, 2003",
+            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+        },
+        {
+            "book_id": 2,
+            "name": "Harry Potter",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+            "url": "https://www.goodreads.com/book/show/2",
+            "authors": [
+                "J.K. Rowling",
+                "Mary GrandPré"
+            ],
+            "rating": 4.5,
+            "pages": 912,
+            "published_date": "June 21, 2003",
+            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+        },
+        {
+            "book_id": 2,
+            "name": "Harry Potter",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+            "url": "https://www.goodreads.com/book/show/2",
+            "authors": [
+                "J.K. Rowling",
+                "Mary GrandPré"
+            ],
+            "rating": 4.5,
+            "pages": 912,
+            "published_date": "June 21, 2003",
+            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+        },
+        {
+            "book_id": 2,
+            "name": "Harry Potter",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+            "url": "https://www.goodreads.com/book/show/2",
+            "authors": [
+                "J.K. Rowling",
+                "Mary GrandPré"
+            ],
+            "rating": 4.5,
+            "pages": 912,
+            "published_date": "June 21, 2003",
+            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+        },
+        {
+            "book_id": 2,
+            "name": "Harry Potter",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+            "url": "https://www.goodreads.com/book/show/2",
+            "authors": [
+                "J.K. Rowling",
+                "Mary GrandPré"
+            ],
+            "rating": 4.5,
+            "pages": 912,
+            "published_date": "June 21, 2003",
+            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+        },
+        {
+            "book_id": 2,
+            "name": "Harry Potter",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+            "url": "https://www.goodreads.com/book/show/2",
+            "authors": [
+                "J.K. Rowling",
+                "Mary GrandPré"
+            ],
+            "rating": 4.5,
+            "pages": 912,
+            "published_date": "June 21, 2003",
+            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+        },
+        {
+            "book_id": 2,
+            "name": "Harry Potter",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+            "url": "https://www.goodreads.com/book/show/2",
+            "authors": [
+                "J.K. Rowling",
+                "Mary GrandPré"
+            ],
+            "rating": 4.5,
+            "pages": 912,
+            "published_date": "June 21, 2003",
+            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+        },
+        {
+            "book_id": 2,
+            "name": "Harry Potter",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+            "url": "https://www.goodreads.com/book/show/2",
+            "authors": [
+                "J.K. Rowling",
+                "Mary GrandPré"
+            ],
+            "rating": 4.5,
+            "pages": 912,
+            "published_date": "June 21, 2003",
+            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+        }
+    ]
+
+
     return (<div className='home'>
-        Home
+        <h1 className=''>Home</h1>
         <Slider {...settings}>
 
             {Data.map((elem, index) => {
@@ -164,32 +309,32 @@ function Home() {
                     </div>
                 )
             })}
-            {/* 
-                </video>
-            </div>
-            <div className='silderItem'>
-                <video width="220" height="120" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" poster="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/VolkswagenGTIReview.jpg" controls>
-                </video>
-            </div>
-            <div className='silderItem'>
-                <video width="220" height="120" controls>
-                    <source src="movie.mp4" type="video/mp4" />
-                </video>            </div>
-            <div className='silderItem'>
-                <video width="220" height="120" controls>
-                    <source src="movie.mp4" type="video/mp4" />
-                </video>            </div>
-            <div className='silderItem'>
-                <video width="220" height="120" controls>
-                    <source src="movie.mp4" type="video/mp4" />
-                </video>            </div>
-            <div className='silderItem'>
-                <video width="220" height="120" controls>
-                    <source src="movie.mp4" type="video/mp4" />
-                </video>            </div> */}
         </Slider>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore qui assumenda officiis, enim nemo soluta sit, dolore velit obcaecati laborum unde dignissimos incidunt ea provident possimus harum placeat quod! Dicta obcaecati quidem, deserunt asperiores dolore dolorem adipisci sint. Itaque necessitatibus animi eos enim incidunt impedit voluptatum dolorum excepturi ea consectetur aliquam, soluta optio repellat minus molestias sapiente quisquam magni voluptates dignissimos, non, blanditiis laudantium praesentium quia? Sapiente temporibus nobis quisquam pariatur cumque. Totam voluptates ab explicabo accusamus illum. Quisquam ea dolorum blanditiis cum perferendis. Possimus soluta voluptatibus, vero assumenda culpa odit molestias blanditiis, eos aspernatur eveniet mollitia neque obcaecati dicta fuga similique cum. Sit, esse! Id voluptatibus enim quibusdam, ipsum voluptates quos. Nisi delectus aperiam mollitia, eum aliquam corporis explicabo, rerum doloribus adipisci sunt tenetur itaque atque nihil. Explicabo voluptatibus laudantium vel architecto tenetur dolores nihil, debitis perferendis quia ad soluta doloremque aliquid asperiores aperiam excepturi dolorem modi adipisci iure cum saepe sapiente reiciendis atque amet! Ducimus, doloremque quae fugiat aliquam velit doloribus provident ex sint tenetur. Ut voluptates possimus atque, saepe voluptas aperiam, eius eligendi dolore ratione harum sequi omnis. Architecto error, ab numquam aliquid repellat natus quidem iusto voluptas obcaecati nobis unde culpa earum eveniet possimus magnam dolorum modi? Rem maxime officia illo reprehenderit, velit debitis, cupiditate nulla repudiandae iure et commodi, quod perferendis dolor qui vero temporibus officiis. Voluptas officia corrupti quos delectus, asperiores cumque similique ad, tempora perspiciatis facilis architecto aliquid dolor aperiam! Soluta quam beatae maiores placeat sequi culpa aut, dolores enim accusantium id libero fuga qui dolore! Magnam odit iusto voluptate corporis, dolorem porro sit quaerat sed voluptas? Non provident expedita praesentium fuga consequuntur? Optio odio natus doloribus, consequatur molestias tempora minima vitae a perspiciatis doloremque repellendus nostrum beatae sit iusto? Voluptas et voluptates perferendis aliquam tempore, aperiam ex officiis sapiente facilis! Cum similique sit eveniet doloribus rerum illo, voluptatibus ullam, expedita iusto ipsa tempora repellendus ducimus nihil modi, molestias sint placeat quod! Nulla repellat, maiores ad eveniet accusantium, sed maxime nihil itaque nisi harum, blanditiis recusandae tenetur cupiditate. Quo sint assumenda, incidunt quia cupiditate quibusdam cum beatae fuga, enim modi aspernatur, nihil minima similique impedit. Numquam, neque et vero sit ab officia tenetur nobis itaque, minima commodi quas voluptates quia porro quis eos quod possimus atque veritatis. Laborum, exercitationem? Voluptatem earum eius officia ut? Asperiores, voluptas. Neque ipsam consequatur dolorum, pariatur aspernatur eius doloremque atque error est tenetur soluta accusantium saepe, deserunt <amet className="lorem20"></amet>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque perferendis quis ullam, voluptas sit necessitatibus autem at, soluta nobis error, rem ducimus doloremque non molestiae laboriosam! Culpa excepturi nesciunt voluptate quis dolores asperiores cum blanditiis non, aliquam id suscipit quae? Earum corrupti necessitatibus quae laudantium illum ad a minus expedita, nostrum tenetur, esse fuga repellat rerum nesciunt quam modi. Debitis aperiam vitae soluta iure saepe vero quam, ipsam reprehenderit cum veritatis eaque corporis. Unde quo aliquid corrupti ab atque cumque deleniti esse, sapiente optio similique. Ab soluta quibusdam veritatis explicabo. Sequi sapiente asperiores aut nobis mollitia consectetur cupiditate voluptate natus provident vel quasi eveniet porro laboriosam facilis officiis deserunt nihil, praesentium incidunt. Culpa quo est consequatur provident tempore doloremque earum itaque debitis eaque cumque incidunt aperiam, id aut iusto saepe nobis velit reprehenderit voluptatem totam, odio ex fugit distinctio? A facere deserunt, dolorem quas neque impedit quasi quisquam laudantium minima sapiente porro ducimus ipsam placeat asperiores amet minus nesciunt. Voluptas excepturi consequatur, soluta eaque rem illum laboriosam? Vitae sed hic nemo nostrum veniam quas dolor corporis rerum amet dignissimos maxime quae corrupti blanditiis, ab inventore, non recusandae eligendi fuga natus quaerat eos incidunt optio ratione. Voluptas nam nesciunt asperiores blanditiis laborum aspernatur, doloribus vero? Ducimus maiores, qui beatae fuga magnam dolores natus, reprehenderit consectetur quos deserunt sequi ex laboriosam, in velit numquam? Ratione ea beatae asperiores harum unde voluptatem temporibus nobis ab quibusdam quo eligendi corporis exercitationem magni in dolorum, amet molestiae corrupti accusamus. Animi iste incidunt omnis in. Deleniti cumque placeat laborum magnam hic rem consequatur laboriosam eos aperiam. Maxime et temporibus nihil maiores at eveniet sunt voluptate velit quae eaque distinctio ea quia quidem, ullam quod. Accusamus quod accusantium exercitationem placeat saepe. Sit temporibus, accusantium possimus voluptatem nobis vero provident, officia deserunt blanditiis quibusdam, ratione corrupti debitis soluta exercitationem laudantium totam doloremque quasi ducimus odit eligendi veniam voluptatibus excepturi iure quidem! Enim recusandae at magnam quia velit ducimus incidunt nobis dolorem sequi facere. Assumenda molestias asperiores dolore delectus ex consectetur eum nesciunt eligendi quidem, tempora minima numquam commodi sit illo? Fugiat quae adipisci officiis quo doloremque saepe, eos iure quibusdam perspiciatis magnam laudantium illo sed dicta dolore iste odit earum. Id eius aperiam ipsa. Architecto earum, dolor eveniet consequatur maiores tenetur debitis quibusdam molestias totam consequuntur ut eaque aliquid excepturi animi ipsa maxime quos sunt enim neque? Dolores, inventore! Quos soluta ea similique saepe libero, quibusdam dolorum quisquam corrupti quasi porro. Nam illum necessitatibus exercitationem, perferendis quasi quaerat quos dolorem reiciendis incidunt magnam! Modi earum commodi quaerat accusantium sapiente est, fuga a provident dolorem distinctio architecto, sed eius reiciendis tempora omnis eum maxime quas doloribus voluptates aut eaque. Ipsam nesciunt sed perspiciatis non a, labore quam minus iusto reprehenderit. Aut eligendi sequi nulla autem doloremque eum quibusdam. Aut autem qui placeat repellendus eaque sequi voluptatem sint consequatur quam iste? Minus recusandae accusantium doloribus, eaque adipisci laborum quisquam modi est eligendi laudantium consequuntur quas minima optio exercitationem temporibus qui. Quas nihil dignissimos incidunt eos est natus ipsam dicta.
+
+
+        <section>
+            <h5 className='text-bold'>Books</h5>
+            <div className='flex w-full gap-2 books'>
+                {BooksFackData.map((elem, index) => {
+                    return (<div className="flex flex-col shadow-sm rounded-xl bg-orange-500 book" key={index} >
+                        <img className="w-full h-auto rounded-t-xl" src={elem.cover} alt="Image Description" />
+                        <div className="p-4 md:p-5">
+                            <h3 className="text-lg font-bold text-white">
+                                {elem.name}
+                            </h3>
+                            <p className="mt-1 text-white">
+                                {elem.synopsis}
+                            </p>
+                            <a className="mt-2 py-2 px-3 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+                                Add to Cart
+                            </a>
+                        </div>
+                    </div>)
+                })
+                }
+
+            </div>
+        </section>
     </div>)
 }
 export default Home;
