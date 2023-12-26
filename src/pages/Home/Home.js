@@ -168,137 +168,165 @@ function Home() {
         "published_date": "June 21, 2003",
         "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
     },
-        {
-            "book_id": 2,
-            "name": "Harry Potter",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
-            "url": "https://www.goodreads.com/book/show/2",
-            "authors": [
-                "J.K. Rowling",
-                "Mary GrandPré"
-            ],
-            "rating": 4.5,
-            "pages": 912,
-            "published_date": "June 21, 2003",
-            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
-        },
-        {
-            "book_id": 2,
-            "name": "Harry Potter",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
-            "url": "https://www.goodreads.com/book/show/2",
-            "authors": [
-                "J.K. Rowling",
-                "Mary GrandPré"
-            ],
-            "rating": 4.5,
-            "pages": 912,
-            "published_date": "June 21, 2003",
-            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
-        },
-        {
-            "book_id": 2,
-            "name": "Harry Potter",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
-            "url": "https://www.goodreads.com/book/show/2",
-            "authors": [
-                "J.K. Rowling",
-                "Mary GrandPré"
-            ],
-            "rating": 4.5,
-            "pages": 912,
-            "published_date": "June 21, 2003",
-            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
-        },
-        {
-            "book_id": 2,
-            "name": "Harry Potter",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
-            "url": "https://www.goodreads.com/book/show/2",
-            "authors": [
-                "J.K. Rowling",
-                "Mary GrandPré"
-            ],
-            "rating": 4.5,
-            "pages": 912,
-            "published_date": "June 21, 2003",
-            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
-        },
-        {
-            "book_id": 2,
-            "name": "Harry Potter",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
-            "url": "https://www.goodreads.com/book/show/2",
-            "authors": [
-                "J.K. Rowling",
-                "Mary GrandPré"
-            ],
-            "rating": 4.5,
-            "pages": 912,
-            "published_date": "June 21, 2003",
-            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
-        },
-        {
-            "book_id": 2,
-            "name": "Harry Potter",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
-            "url": "https://www.goodreads.com/book/show/2",
-            "authors": [
-                "J.K. Rowling",
-                "Mary GrandPré"
-            ],
-            "rating": 4.5,
-            "pages": 912,
-            "published_date": "June 21, 2003",
-            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
-        },
-        {
-            "book_id": 2,
-            "name": "Harry Potter",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
-            "url": "https://www.goodreads.com/book/show/2",
-            "authors": [
-                "J.K. Rowling",
-                "Mary GrandPré"
-            ],
-            "rating": 4.5,
-            "pages": 912,
-            "published_date": "June 21, 2003",
-            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
-        },
-        {
-            "book_id": 2,
-            "name": "Harry Potter",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
-            "url": "https://www.goodreads.com/book/show/2",
-            "authors": [
-                "J.K. Rowling",
-                "Mary GrandPré"
-            ],
-            "rating": 4.5,
-            "pages": 912,
-            "published_date": "June 21, 2003",
-            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
-        },
-        {
-            "book_id": 2,
-            "name": "Harry Potter",
-            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
-            "url": "https://www.goodreads.com/book/show/2",
-            "authors": [
-                "J.K. Rowling",
-                "Mary GrandPré"
-            ],
-            "rating": 4.5,
-            "pages": 912,
-            "published_date": "June 21, 2003",
-            "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
-        }
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+        "book_id": 2,
+        "name": "Harry Potter",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546910265i/2.jpg",
+        "url": "https://www.goodreads.com/book/show/2",
+        "authors": [
+            "J.K. Rowling",
+            "Mary GrandPré"
+        ],
+        "rating": 4.5,
+        "pages": 912,
+        "published_date": "June 21, 2003",
+        "synopsis": "Harry Potter is about to start his fifth year at Hogwarts School of Witchcraft and Wizardry."
+    }
     ]
 
 
     return (<div className='home'>
-        <h1 className=''>Home</h1>
+        <h1 className='font-bold'>Home</h1>
         <Slider {...settings}>
 
             {Data.map((elem, index) => {
@@ -313,21 +341,21 @@ function Home() {
 
 
         <section>
-            <h5 className='text-bold'>Books</h5>
-            <div className='flex w-full gap-2 books'>
+            <h5 className='font-bold'>Books</h5>
+            <div className='books  inline-flex gap-2'>
                 {BooksFackData.map((elem, index) => {
                     return (<div className="flex flex-col shadow-sm rounded-xl bg-orange-500 book" key={index} >
                         <img className="w-full h-auto rounded-t-xl" src={elem.cover} alt="Image Description" />
                         <div className="p-4 md:p-5">
-                            <h3 className="text-lg font-bold text-white">
+                            <h3 className="text-sm font-bold text-white flex">
                                 {elem.name}
                             </h3>
-                            <p className="mt-1 text-white">
+                            {/* <p className="mt-1 text-white">
                                 {elem.synopsis}
-                            </p>
-                            <a className="mt-2 py-2 px-3 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+                            </p> */}
+                            <div className=" py-2 px-3 justify-center items-center text-xs rounded-lg border border-transparent bg-black text-white hover:bg-blue-700">
                                 Add to Cart
-                            </a>
+                            </div>
                         </div>
                     </div>)
                 })

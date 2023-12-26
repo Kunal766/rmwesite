@@ -3,14 +3,20 @@
 }
 
 .books {
-    box-sizing: border-box;
     height: auto;
     width: 80vw;
-    background-color: #fff0dd;
-    grid-area: disp1;
     overflow-x: auto;
 }
 
 .book {
     width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .books {
+        height: auto;
+        width: 90vw;
+        overflow-x: auto;
+    }
+
 }
